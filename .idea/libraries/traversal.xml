@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="traversal">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/samples/data/malicious/traversal.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EInvoice>
+  <Header>
+    <EIid>24330000000000000005</EIid>
+    <InherentLabel>
+      <GeneralOrSpecialVAT><LabelName>普通发票</LabelName></GeneralOrSpecialVAT>
+    </InherentLabel>
+  </Header>
+  <EInvoiceData>
+    <SellerInformation>
+      <SellerIdNum>91330000MA0000001X</SellerIdNum>
+      <SellerName>示例销售方</SellerName>
+    </SellerInformation>
+    <BuyerInformation>
+      <BuyerIdNum>91330000MA0000002Y</BuyerIdNum>
+      <BuyerName>示例购买方</BuyerName>
+    </BuyerInformation>
+    <BasicInformation>
+      <TotalAmWithoutTax>50.00</TotalAmWithoutTax>
+      <TotalTaxAm>0.00</TotalTaxAm>
+      <TotalTax-includedAmount>50.00</TotalTax-includedAmount>
+      <RequestTime>2026-10-05</RequestTime>
+      <Drawer>赵六</Drawer>
+    </BasicInformation>
+    <IssuItemInformation>
+      <ItemName>新鲜蔬菜</ItemName>
+      <SpecMod>千克</SpecMod>
+      <MeaUnits>千克</MeaUnits>
+      <Quantity>1</Quantity>
+      <UnPrice>50.00</UnPrice>
+      <Amount>50.00</Amount>
+      <TaxRate>免税</TaxRate>
+      <ComTaxAm>0.00</ComTaxAm>
+      <TaxClassificationCode>1010115010000000000</TaxClassificationCode>
+    </IssuItemInformation>
+  </EInvoiceData>
+</EInvoice>

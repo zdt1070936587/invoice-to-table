@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+*.spec
+*.egg-info/
+dev_keys/
+samples/real/
+进项_*.xlsx
+销项_*.xlsx

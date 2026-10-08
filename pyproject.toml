@@ -1,0 +1,32 @@
+[project]
+name = "fapiao"
+version = "0.1.0"
+description = "发票成表 — 数电票整理成 Excel"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "lxml>=5",
+  "pypdf>=5",
+  "openpyxl>=3",
+  "customtkinter>=5",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "pyinstaller>=6",
+]
+
+[project.scripts]
+fapiao = "fapiao.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

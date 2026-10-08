@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EInvoice>
+  <Fphm>24330000000000000002</Fphm>
+  <Kprq>2026-10-02</Kprq>
+  <Fppz>普通</Fppz>
+  <Gmfmc>示例购买方</Gmfmc>
+  <Gmfnsrsbh>91330000MA0000002Y</Gmfnsrsbh>
+  <Xsfmc>示例销售方</Xsfmc>
+  <Xsfnsrsbh>91330000MA0000001X</Xsfnsrsbh>
+  <Hjje>200.00</Hjje>
+  <Hjse>6.00</Hjse>
+  <Jshj>206.00</Jshj>
+  <Kpr>李四</Kpr>
+  <Details>
+    <Item>
+      <Spmc>咨询服务</Spmc>
+      <Ggxh>标准</Ggxh>
+      <Dw>次</Dw>
+      <Sl>1</Sl>
+      <Dj>200.00</Dj>
+      <Je>200.00</Je>
+      <Slv>3%</Slv>
+      <Se>6.00</Se>
+      <Spbm>3040301990000000000</Spbm>
+    </Item>
+  </Details>
+</EInvoice>

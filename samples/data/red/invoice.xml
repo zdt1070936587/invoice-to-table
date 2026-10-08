@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EInvoice>
+  <Header>
+    <EIid>24330000000000000004</EIid>
+    <InherentLabel>
+      <GeneralOrSpecialVAT><LabelName>增值税专用发票</LabelName></GeneralOrSpecialVAT>
+    </InherentLabel>
+    <UndefinedLabel>
+      <Label><LabelName>红字发票</LabelName></Label>
+    </UndefinedLabel>
+  </Header>
+  <EInvoiceData>
+    <SellerInformation>
+      <SellerIdNum>91330000MA0000001X</SellerIdNum>
+      <SellerName>示例销售方</SellerName>
+    </SellerInformation>
+    <BuyerInformation>
+      <BuyerIdNum>91330000MA0000002Y</BuyerIdNum>
+      <BuyerName>示例购买方</BuyerName>
+    </BuyerInformation>
+    <BasicInformation>
+      <TotalAmWithoutTax>-100.00</TotalAmWithoutTax>
+      <TotalTaxAm>-13.00</TotalTaxAm>
+      <TotalTax-includedAmount>-113.00</TotalTax-includedAmount>
+      <RequestTime>2026-10-04</RequestTime>
+      <Drawer>张三</Drawer>
+    </BasicInformation>
+    <IssuItemInformation>
+      <ItemName>办公用品</ItemName>
+      <SpecMod>A4</SpecMod>
+      <MeaUnits>箱</MeaUnits>
+      <Quantity>-2</Quantity>
+      <UnPrice>50.00</UnPrice>
+      <Amount>-100.00</Amount>
+      <TaxRate>0.13</TaxRate>
+      <ComTaxAm>-13.00</ComTaxAm>
+      <TaxClassificationCode>1090511030000000000</TaxClassificationCode>
+    </IssuItemInformation>
+  </EInvoiceData>
+</EInvoice>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EInvoice>
+  <Header>
+    <EIid>24330000000000000006</EIid>
+    <InherentLabel>
+      <GeneralOrSpecialVAT><LabelName>普通发票</LabelName></GeneralOrSpecialVAT>
+    </InherentLabel>
+  </Header>
+  <EInvoiceData>
+    <SellerInformation>
+      <SellerIdNum>91330000MA0000001X</SellerIdNum>
+      <SellerName>示例销售方</SellerName>
+    </SellerInformation>
+    <BuyerInformation>
+      <BuyerIdNum>91330000MA0000002Y</BuyerIdNum>
+      <BuyerName>示例购买方</BuyerName>
+    </BuyerInformation>
+    <BasicInformation>
+      <TotalAmWithoutTax>80.00</TotalAmWithoutTax>
+      <TotalTaxAm>7.20</TotalTaxAm>
+      <TotalTax-includedAmount>87.20</TotalTax-includedAmount>
+      <RequestTime>2026-10-06</RequestTime>
+      <Drawer>钱七</Drawer>
+    </BasicInformation>
+    <IssuItemInformation>
+      <ItemName>图书</ItemName>
+      <SpecMod>册</SpecMod>
+      <MeaUnits>册</MeaUnits>
+      <Quantity>1</Quantity>
+      <UnPrice>80.00</UnPrice>
+      <Amount>80.00</Amount>
+      <TaxRate>0.09</TaxRate>
+      <ComTaxAm>7.20</ComTaxAm>
+      <TaxClassificationCode>1060201019900000000</TaxClassificationCode>
+    </IssuItemInformation>
+  </EInvoiceData>
+</EInvoice>
